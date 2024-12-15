@@ -6,8 +6,8 @@ import os
 def main():
     # Configurar diretórios
     data_path = 'datasets/conversations.txt'
-    output_dir = "./results"
-    model_save_dir = "./fine-tune-dialogpt"
+    output_dir = "dialogpt/results"
+    model_save_dir = "dialogpt/fine-tuned-model"
     
     # Carregar dataset
     dataset = load_dataset('text', data_files={'train': data_path})
