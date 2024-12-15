@@ -5,7 +5,7 @@ import os
 
 def main():
     # Configurar diretórios
-    data_path = 'dataset/conversations.txt'
+    data_path = 'datasets/conversations.txt'
     output_dir = "./results"
     model_save_dir = "./fine-tune-dialogpt"
     

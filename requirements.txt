@@ -1,1 +1,9 @@
+torch
 transformers
+datasets
+numpy
+scikit-learn
+tensorboard
+accelerate
+evaluate
+flask
