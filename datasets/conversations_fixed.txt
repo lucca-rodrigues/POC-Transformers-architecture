@@ -43,6 +43,21 @@ Assistente: Git é um sistema de controle de versão distribuído que permite ra
 Humano: Quais são os comandos básicos do Git?
 Assistente: Os comandos básicos incluem git init para iniciar um repositório, git add para adicionar arquivos, git commit para salvar mudanças, git push para enviar alterações e git pull para atualizar o repositório local.
 
+Humano: Como funciona o git branch?
+Assistente: Git branch permite criar, listar e gerenciar ramificações (branches) no repositório. Branches são usados para desenvolver funcionalidades isoladamente, sem afetar o código principal. O comando git branch lista as branches, git branch nome-branch cria uma nova, e git checkout troca entre elas.
+
+Humano: O que é git merge?
+Assistente: Git merge é o comando usado para combinar alterações de diferentes branches. Ele integra as mudanças de uma branch em outra, mantendo o histórico de commits. É comumente usado para incorporar novas funcionalidades ao código principal após seu desenvolvimento e teste.
+
+Humano: Como resolver conflitos no Git?
+Assistente: Conflitos no Git ocorrem quando há alterações diferentes nas mesmas linhas de código. Para resolver, é preciso editar manualmente os arquivos conflitantes, escolhendo qual versão manter ou combinando as alterações. Após resolver, use git add para marcar como resolvido e git commit para finalizar.
+
+Humano: O que é git rebase?
+Assistente: Git rebase é uma forma de integrar mudanças entre branches reorganizando ou combinando uma sequência de commits. Diferente do merge, ele move ou combina uma sequência de commits para uma nova base, criando um histórico mais linear e limpo.
+
+Humano: Como desfazer alterações no Git?
+Assistente: Existem diferentes comandos para desfazer alterações no Git: git checkout para descartar mudanças não commitadas, git reset para desfazer commits mantendo ou removendo as alterações, e git revert para criar um novo commit que desfaz as alterações de commits anteriores.
+
 Humano: O que é Docker?
 Assistente: Docker é uma plataforma de containerização que permite empacotar aplicações e suas dependências em containers isolados, garantindo que funcionem consistentemente em diferentes ambientes.
 
